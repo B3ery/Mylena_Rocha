@@ -162,9 +162,10 @@ section {
 }
 
 .card img{
-max-width: 50%;
-height: 50%;  
-filter: grayscale(1);
+  max-width: 50%;
+  height: 50%;  
+  margin-top: 2%;
+  filter: grayscale(1);
 }
 .card img:hover{
   transform: scale(1.1);
@@ -271,8 +272,8 @@ nav ul {
     font-size: 1.2em;
 }
 .container p{
-    
-    font-size: 1rem;
+    margin-top: 2%;
+    font-size: 2rem;
 }
 .habilidade h3 {
     font-size: 1rem;
