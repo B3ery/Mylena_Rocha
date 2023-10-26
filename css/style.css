@@ -99,7 +99,7 @@ section {
 }
 .container-portfolio{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr ));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr ));
     gap: 20px;
     max-width: 1355px;
     margin: 0 auto;
@@ -120,7 +120,8 @@ section {
 }
 
 .projeto p {
-    color: #6106ff;
+    color: #ffffff;
+    margin-top: 1%;
     font-size: 1rem;
 }
 
@@ -133,7 +134,7 @@ section {
 
 .projeto a:hover {
   border-bottom: 2px solid #6a00ff;
-  color: #61068b;
+  color: #6d1d92;
   font-weight: bold;
 }
 
