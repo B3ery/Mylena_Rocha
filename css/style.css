@@ -2,7 +2,7 @@
  padding: 0;
  margin: 0;
  box-sizing: border-box;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-family: Arial, Helvetica, sans-serif;
 }
 body{
   background-color:#000000 ;
@@ -13,11 +13,14 @@ body{
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+  align-items: center;
+  display: flex;  
 }
  
 header img{
   max-width: 200px;
   height: auto;
+
 }
 
 header {
@@ -28,15 +31,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  justify-content: center;
-  align-items: center;
   font-size: larger;
   padding: 10px 0;
 }
 
 nav ul {
   list-style: none;  
-  background-color: #0000007e;
+  font-size: 1.5em;
 }
 
 nav ul li {
@@ -46,8 +47,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
-
+  color: #ffffff;
   font-weight: bold;
 }
 
