@@ -10,11 +10,12 @@ body{
 /*menu*/
 
 .container {
-  max-width: 1200px;
+  width:2000px;
   margin: 0 auto;
   padding: 20px;
   align-items: center;
   display: flex;  
+  background-color: #480c705b;
 }
  
 header img{
@@ -65,6 +66,7 @@ section {
     background-color:#0c0131;
     color: white;
 }
+
 
 #sobre p{
   margin-top: 1%;
